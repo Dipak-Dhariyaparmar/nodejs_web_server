@@ -21,3 +21,10 @@ const logEvents = async (message, logName) => {
 };
 
 module.exports = logEvents;
+
+// this is a utility function to log events to a file
+//       contentType = "text/plain";
+//     case ".html":
+//       contentType = "text/html";
+//       break;
+//     default:

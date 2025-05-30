@@ -96,3 +96,11 @@ const server = http.createServer((req, res) => {
   }
 });
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// this is a simple HTTP server that serves static files
+// and logs requests and errors to a file
+// it uses the EventEmitter class to log events
+// it serves HTML, CSS, JS, JSON, images, and text files
+// it handles 404 errors and redirects old pages to new ones
+// it uses the fs and fsPromises modules to read and write files
+// it uses the path module to handle file paths
